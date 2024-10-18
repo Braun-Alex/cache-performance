@@ -53,8 +53,8 @@ int main() {
 #endif
 
     const clock_t end_time = clock();
-    const double time_taken = ((double)(end_time - start_time)) / CLOCKS_PER_SEC;
-    printf("Execution time: %f seconds\n", time_taken);
+    const double latency = (double)(end_time - start_time) / CLOCKS_PER_SEC;
+    printf("Latency: %f seconds\n", latency);
 
     free(array);
     return 0;

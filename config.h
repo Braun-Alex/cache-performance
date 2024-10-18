@@ -5,7 +5,7 @@
 #include <time.h>
 #include <stdatomic.h>
 
-#define ARRAY_SIZE 10000000
+#define ARRAY_SIZE 1000000000
 
 #define ATOMIC_MEMORY 0
 #define CACHE_DELAYS 0
